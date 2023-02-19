@@ -7,7 +7,7 @@ fi
 
 if [ ! -f ~/.nvm/nvm.sh ]; then
     # May need to be updated with the latest nvm release
-    wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+    wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
 
     mv ~/.nvm /opt/nvm
